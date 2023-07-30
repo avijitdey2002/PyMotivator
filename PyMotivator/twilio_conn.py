@@ -5,7 +5,7 @@ from config import auth_token,account_sid
 
 def set_twilio_connection(account_sid,auth_token):
   """
-    SETS A TWILIO CONNECTION FOR WHATSAPP
+    SETTING A TWILIO CONNECTION FOR WHATSAPP
   """
   client = Client(account_sid, auth_token)
   return client
